@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from 'next/link';
 import Menu from "@/components/menu/menu";
@@ -9,7 +10,6 @@ export const metadata: Metadata = {
   title: "Каталог",
   description: "Доставка авто из Кореи, Японии и Китая от 10 дней по всей россии",
 };
-
 
 export default function Catalog() {
   return (
@@ -23,8 +23,7 @@ export default function Catalog() {
         <meta property="og:image" content="img/_src/zahar.webp"/>
       </Head>
       <Menu />
-      <CatalogD />
-
+      <CatalogD/>
     </>
   );
 }
