@@ -94,3 +94,44 @@ export const submitFormPopUp = (e) => {
     ym(94235766,'reachGoal','send_form');
     return true;
 };
+
+export const submitFormCard = (e) => {
+    e.preventDefault();
+    const success = document.getElementById("success-popup");
+    
+
+    let message = `<b>Заявка. Консультация по авто.</b>\n`;
+    message+=`<b>Имя: </b> ${e.target.name.value}\n`;
+    message+=`<b>Телефон: </b> ${e.target.name.value}\n`;
+
+
+
+    let  formData = new FormData(this);   
+    for (var value of formData.values()) {
+        if(value.length ===0){
+            ev.preventDefault() // если нет полей - то остонавливаем выполнение события 
+        }
+
+    }
+    
+    axios.post(URI_API, {
+        chat_id:CHAT_ID,
+        parse_mode: 'html',
+        text: message
+    })
+    .then((res) => {
+        e.target.name.value = "";
+        e.target.phone.value = "";
+        success.innerHTML = "Сообщение отправлено!";
+        success.style.display = "block";
+    })
+    .catch((err) =>{
+        console.warn(err);
+    })
+    .finally(() => {
+        //
+    })
+
+    ym(94235766,'reachGoal','send_form');
+    return true;
+};

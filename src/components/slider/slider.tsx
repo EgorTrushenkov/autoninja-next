@@ -17,7 +17,7 @@ export default function Slider() {
                 prevEl: ".slider-button-prev",
             },
             mousewheel: {
-            sensitivity: 1
+                sensitivity: 1
             },
             slidesPerView: 1.7,
             breakpoints: {
@@ -58,7 +58,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/Honda-logo-1920x1080 1.webp" alt=""/>
+                                            <img src="/_src/logo-auto/honda.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Honda Stepwgn</h1>
                                                 <p>2019 год</p>
@@ -67,7 +67,7 @@ export default function Slider() {
                                         <h1 className = "sum">1.000.000 - 2.400.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src = "/_src/img-auto/honda-stepwgn.webp"  alt=""/>
+                                        <img className="photo-auto" src = "/_src/img-auto/honda_stepwgn.webp"  alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
@@ -99,7 +99,7 @@ export default function Slider() {
                                                     </div>
                                                 </li>
                                                 <h1 className = "sum2">1.000.000 - 2.400.000₽</h1>
-                                                <a  className = "nav-button">Заказать</a>
+                                                <a  className = "nav-button">Подробнее</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/toyota.webp" alt=""/>
+                                            <img src="/_src/logo-auto/toyota.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Toyota Land Cruiser Prado</h1>
                                                 <p>2016-2021 год</p>
@@ -119,7 +119,7 @@ export default function Slider() {
                                         <h1 className = "sum">2.500.000 - 3.800.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src="/_src/img-auto/landcruserprada.webp" alt=""/>
+                                        <img className="photo-auto" src="/_src/img-auto/toyota_land_cruiser_prado.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
@@ -153,7 +153,7 @@ export default function Slider() {
                                                 <li>
                                                 </li>
                                                 <h1 className = "sum2">2.500.000 - 3.800.000₽</h1>
-                                                <a  className = "nav-button">Заказать</a>
+                                                <a  className = "nav-button">Подробнее</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -173,7 +173,7 @@ export default function Slider() {
                                         <h1 className = "sum">2.950.000 - 4.200.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto"  src="/_src/img-auto/hyundai.png" alt=""/>
+                                        <img className="photo-auto"  src="/_src/img-auto/hyundai_palisade_slider.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
@@ -206,7 +206,7 @@ export default function Slider() {
                                                 </li>
 
                                                 <h1 className = "sum2">2.950.000 - 4.200.000₽</h1>
-                                                <a  className = "nav-button">Заказать</a>
+                                                <a  className = "nav-button">Подробнее</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/kia.webp" alt=""/>
+                                            <img src="/_src/logo-auto/kia.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>KIA K5</h1>
                                                 <p>2019-2021 год</p>
@@ -226,7 +226,7 @@ export default function Slider() {
                                         <h1 className = "sum">1.850.000 - 2.500.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src="/_src/img-auto/kia_k5.png" alt=""/>
+                                        <img className="photo-auto" src="/_src/img-auto/kia_k5_slider.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
@@ -258,7 +258,7 @@ export default function Slider() {
                                                     </div>
                                                 </li>
                                                 <h1 className = "sum2">1.850.000 - 2.500.000₽</h1>
-                                                <a  className = "nav-button">Заказать</a>
+                                                <a  className = "nav-button">Подробнее</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/Geely.webp" alt=""/>
+                                            <img src="/_src/logo-auto/geely.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Geely Monjaro</h1>
                                                 <p>2021-2023 год</p>
@@ -311,7 +311,7 @@ export default function Slider() {
                                                 </li>
 
                                                 <h1 className = "sum2">2.800.000 - 4.000.000₽</h1>
-                                                <a  className = "nav-button">Заказать</a>
+                                                <a  className = "nav-button">Подробнее</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -324,7 +324,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/Honda-logo-1920x1080 1.webp" alt=""/>
+                                    <img src="/_src/logo-auto/honda.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Honda Stepwgn</h1>
                                         <p>2019 год</p>
@@ -333,7 +333,7 @@ export default function Slider() {
                                 <h1 className = "sum">1.000.000 - 2.400.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/honda-stepwgn.webp" alt=""/>
+                                <img className="photo-auto" src="/_src/img-auto/honda_stepwgn.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
@@ -365,7 +365,7 @@ export default function Slider() {
                                             </div>
                                         </li>
                                         <h1 className = "sum2">1.000.000 - 2.400.000₽</h1>
-                                        <a  className = "nav-button">Заказать</a>
+                                        <a  className = "nav-button">Подробнее</a>
                                     </ul>
                                 </div>
                             </div>
@@ -373,7 +373,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/toyota.webp" alt=""/>
+                                    <img src="/_src/logo-auto/toyota.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Toyota Land Cruiser Prado</h1>
                                         <p>2016-201 год</p>
@@ -382,7 +382,7 @@ export default function Slider() {
                                 <h1 className = "sum">от 3.000.000р</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/landcruserprada.webp" alt=""/>
+                                <img className="photo-auto" src="/_src/img-auto/toyota_land_cruiser_prado.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
@@ -415,7 +415,7 @@ export default function Slider() {
                                         </li>
 
                                         <h1 className = "sum2">2.500.000 - 3.800.000₽</h1>
-                                        <a  className = "nav-button">Заказать</a>
+                                        <a  className = "nav-button">Подробнее</a>
                                     </ul>
                                 </div>
                             </div>
@@ -432,7 +432,7 @@ export default function Slider() {
                                 <h1 className = "sum">2.950.000 - 4.200.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/hyundai.png" alt=""/>
+                                <img className="photo-auto" src="/_src/img-auto/hyundai_palisade_slider.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
@@ -464,7 +464,7 @@ export default function Slider() {
                                             </div>
                                         </li>
                                         <h1 className = "sum2">2.950.000 - 4.200.000₽</h1>
-                                        <a  className = "nav-button">Заказать</a>
+                                        <a  className = "nav-button">Подробнее</a>
                                     </ul>
                                 </div>
                             </div>
@@ -472,7 +472,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/kia.webp" alt=""/>
+                                    <img src="/_src/logo-auto/kia.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>KIA K5</h1>
                                         <p>2019-2021 год</p>
@@ -481,7 +481,7 @@ export default function Slider() {
                                 <h1 className = "sum">1.850.000 - 2.500.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/kia_k5.png" alt=""/>
+                                <img className="photo-auto" src="/_src/img-auto/kia_k5_slider.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
@@ -513,7 +513,7 @@ export default function Slider() {
                                             </div>
                                         </li>
                                         <h1 className = "sum2">1.850.000 - 2.500.000₽</h1>
-                                        <a  className = "nav-button">Заказать</a>
+                                        <a  className = "nav-button">Подробнее</a>
                                     </ul>
                                 </div>
                             </div>
@@ -521,7 +521,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/Geely.webp" alt=""/>
+                                    <img src="/_src/logo-auto/geely.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Geely Monjaro</h1>
                                         <p>2021-2023 год</p>
@@ -563,7 +563,7 @@ export default function Slider() {
                                         </li>
 
                                         <h1 className = "sum2">2.800.000 - 4.000.000₽</h1>
-                                        <a className = "nav-button">Заказать</a>
+                                        <a className = "nav-button">Подробнее</a>
                                     </ul>
                                 </div>
                             </div>

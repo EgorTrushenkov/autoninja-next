@@ -18,7 +18,7 @@
     "react-dom": "^18",
     "sass": "^1.77.8",
     "scss": "^0.2.4",
-    "swiper": "^11.1.10",
+    "swiper": "^11.1.11",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
