@@ -14,7 +14,7 @@ export default function Contacts() {
                             <div>
                                 <a href="https://wa.me/79242488665" className="button"><img src="/_src/icon-svg/whatsapp.webp" alt=""/></a>
                                 <a href="https://www.youtube.com/@auto_ninja" className="button"><img src="/_src/icon-svg/youtube.webp" alt=""/></a>
-                                <a href="https://vk.com/auto_ninja" className="button"><img src="/_src/icon-svg/vk.webp" alt=""/></a>
+                                <a href="https://t.me/auto_ninja" className="button"><img src="/_src/icon-svg/tg.webp" alt=""/></a>
                             </div>
                         </li>
                     </ul>

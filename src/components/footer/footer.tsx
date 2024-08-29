@@ -15,8 +15,8 @@ export default function Footer() {
                                 <li className="nav-button"><Link href="/catalog">Каталог</Link></li>
                                 <li className="nav-button"><a href="https://auc.auto-ninja.ru/">Аукцион</a></li>
                                 <li className="nav-button"><Link href="/online-form">Онлайн-подбор</Link></li>
-                                <li className="nav-button"><a href="#stages">Этапы покупки</a></li>
-                                <li className="nav-button"><a href="#dop-services">Дополнительный сервис</a></li>
+                                <li className="nav-button"><Link href="/#stages">Этапы покупки</Link></li>
+                                <li className="nav-button"><Link href="/#dop-services">Дополнительный сервис</Link></li>
                                 <li className="nav-button"><a href="#contacts">Контакты</a></li>
                             </ul>
                             <a href="#menu"><img className = "arrow-footer" src="/_src/arrow-footer.webp" alt=""/></a>
@@ -26,8 +26,8 @@ export default function Footer() {
                             <li className="nav-button"><Link href="/catalog">Каталог</Link></li>
                             <li className="nav-button"><a href="https://auc.auto-ninja.ru/">Аукцион</a></li>
                             <li className="nav-button"><Link href="/online-form">Онлайн-подбор</Link></li>
-                            <li className="nav-button"><a href="#stages">Этапы покупки</a></li>
-                            <li className="nav-button"><a href="#dop-services">Дополнительный сервис</a></li>
+                            <li className="nav-button"><Link href="/#stages">Этапы покупки</Link></li>
+                            <li className="nav-button"><Link href="/#dop-services">Дополнительный сервис</Link></li>
                             <li className="nav-button"><a href="#contacts">Контакты</a></li>
                         </ul>
                         <div className = "whats-contacts">

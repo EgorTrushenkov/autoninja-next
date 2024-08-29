@@ -53,8 +53,8 @@ export default function Menu() {
                                 <li><Link className = "nav-menu-items-mob" href="/catalog">Каталог</Link></li>
                                 <li><a className = "nav-menu-items-mob" href="https://auc.auto-ninja.ru/">Аукцион</a></li>
                                 <li><Link className = "nav-menu-items-mob" href="/online-form">Онлайн-подбор</Link></li>
-                                <li><a className = "nav-menu-items-mob" href="#stages">Этапы покупки</a></li>
-                                <li><a className = "nav-menu-items-mob" href="#dop-services">Дополнительный сервис</a></li>
+                                <li><Link className = "nav-menu-items-mob" href="/#stages">Этапы покупки</Link></li>
+                                <li><Link className = "nav-menu-items-mob" href="/#dop-services">Дополнительный сервис</Link></li>
                                 <li><a className = "nav-menu-items-mob" href="#contacts">Контакты</a></li>
                                 <div className = "nav-items-buttons">
                                     <li className="nav-items"><a href="tel:+7 (924) 248-86-65" className="nav-link nav-button">+7 (924) 248-86-65</a></li>

@@ -14,8 +14,8 @@ export default function Popup() {
                     <div className="form-catalog-wrapper form-popup-wrapper">
                         <div className="title-skyline">
                             <div className="title-form-catalog">
-                                <h1>Заполните короткую форму</h1>
-                                <p>Наши менеджеры свяжутся с вами в течение 60 минут</p>
+                                <h1>Не нашли подходящий авто?</h1>
+                                <p>Оставьте заявку на индивидуальный подбор автомобиля под ваш запрос и бюджет</p>
                             </div>
                             <img className="skyline-catalog-form" src="/_src/skyline-form-catalog.webp" alt=""/>
                         </div>

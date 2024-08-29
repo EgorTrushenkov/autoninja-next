@@ -1,11 +1,15 @@
+import * as React from 'react';
 import Head from "next/head";
 import Menu from "@/components/menu/menu";
-import PopupCatalog from "@/components/popup_catalog/popup_catalog";
+import FormNotFound from "@/components/form_notcar/form_notcar";
 import Contacts from "@/components/contacts/contacts";
 import Footer from "@/components/footer/footer";
+import PopupCard from "@/components/popup_card/popup_card";
 import SwiperPage from "@/app/catalog/[car]/swiper";
 import { notFound } from "next/navigation";
 import styles from "@/styles/sass/card.module.sass";
+import Link from 'next/link';
+import Script from 'next/script';
 
 
 const fetchData = async() => {
@@ -63,6 +67,10 @@ export default async function CarPage({
       <Menu />
       <div className={styles.card_cars}>
         <div className = "container">
+            <Link className = {styles.back_catalog} href="/catalog/">
+              <img src="/_src/arrow_card.webp" alt="" />
+              <p>Вернуться назад</p>
+            </Link>
             <div className={styles.title_card}>
               <h1>Автомобиль {Name}</h1>
               <p className = {styles.year_card}>{Year}</p>
@@ -155,10 +163,10 @@ export default async function CarPage({
             </div>
         </div>
       </div>
-      <PopupCatalog />
+      <FormNotFound />
       <Contacts />
       <Footer />
-
+      <PopupCard name = {Name} price = {Price} slug ={Slug}/>
     </> 
   );
 }

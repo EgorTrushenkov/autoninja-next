@@ -5,27 +5,29 @@ import Menu from "@/components/menu/menu";
 import Head from "next/head";
 import { Metadata } from "next";
 import Catalog from "@/components/catalog/catalog";
-
+import Contacts from "@/components/contacts/contacts";
+import Footer from "@/components/footer/footer";
+import FormNotFound from "@/components/form_notcar/form_notcar";
 export const metadata: Metadata = {
   title: "Каталог",
   description: "Доставка авто из Кореи, Японии и Китая от 10 дней по всей россии",
 };
 
-export const fetchData = async() => {
-  const response = await fetch('https://script.google.com/macros/s/AKfycbyIxKvBUAIufdDs9VZegCyjllZXYDXR-0mXdmNzYObPeZyDqpf59sOiXiGgz2WFJLJf/exec', {
-    cache: 'force-cache',
-    next: {
-      revalidate: 200 // 1 hours
-    }
-  })
-  const data = await response.json()
-  const cars = data['users']
-  return cars
-}
 
 
 
 export default async function Page() {
+  const fetchData = async() => {
+    const response = await fetch('https://script.google.com/macros/s/AKfycbyIxKvBUAIufdDs9VZegCyjllZXYDXR-0mXdmNzYObPeZyDqpf59sOiXiGgz2WFJLJf/exec', {
+      cache: 'force-cache',
+      next: {
+        revalidate: 200 // 1 hours
+      }
+    })
+    const data = await response.json()
+    const cars = data['users']
+    return cars
+  }
   const cars = await fetchData();
   
   return (
@@ -40,6 +42,9 @@ export default async function Page() {
       </Head>
       <Menu />
       <Catalog cars = {cars} />
+      <FormNotFound />
+      <Contacts />
+      <Footer />
     </>
   );
 
