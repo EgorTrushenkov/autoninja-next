@@ -114,7 +114,7 @@ export default function Catalog(cars: { cars: any[] }) {
                             </div>
                             <div className="down-content">
                                 <h3>{Price}</h3>
-                                <Link href={`/catalog/${Slug}`} className="button">Заказать авто</Link>
+                                <Link href={`/catalog/${Slug}`} className="button">Подробнее</Link>
                             </div>
                             
                         </div>

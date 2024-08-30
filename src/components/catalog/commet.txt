@@ -1,4 +1,0 @@
-
-https://script.google.com/macros/s/AKfycbxGF8-ZeQSS1OKKE8jQJiy5a_CofxJOX9cDgsoMLUH64P49WGnrfgDoHI6cH7_g2kNV/exec
-
-Number, Slug, Name, Engine, Power, Acceleration, Box, Drive, Dimensions, Torque, Tire_size, Price, Main_photo, Country, Year
