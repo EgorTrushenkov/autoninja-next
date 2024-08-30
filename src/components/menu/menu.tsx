@@ -4,12 +4,17 @@ import Link from "next/link"
 export default function Menu() {
     const openMenu = () => {
         const menu = document.getElementById("submenu");
-        menu.style.display = "block";
-    }
-    const closeMenu = () => {
+        if (menu) {
+          menu.style.display = "block";
+        }
+      }
+      
+      const closeMenu = () => {
         const menu = document.getElementById("submenu");
-        menu.style.display = "none";
-    }
+        if (menu) {
+          menu.style.display = "none";
+        }
+      }
     return (
         <>
             <div className="menu" id = "menu">

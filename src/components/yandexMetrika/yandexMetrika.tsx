@@ -1,27 +1,41 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
+
+declare global {
+  interface Window {
+    ym: (id: number, method: string, href: string) => void;
+  }
+}
 
 export function Metrika() {
   const pathName = usePathname();
   const searchParams = useSearchParams();
+  const [isScriptLoaded, setIsScriptLoaded] = useState(false);
 
   useEffect(() => {
-    ym(94235766, "hit", window.location.href);
-  }, [pathName, searchParams]);
+    if (isScriptLoaded) {
+      window.ym(94235766, "hit", window.location.href);
+    }
+  }, [isScriptLoaded, pathName, searchParams]);
 
   return (
-    <Script id="yandex-metrika">
+    <Script
+      id="yandex-metrika"
+      onLoad={() => {
+        setIsScriptLoaded(true);
+      }}
+    >
       {`
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};}
         m[i].l=1*new Date();
         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}))
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym(94235766, "init", {
+        window.ym(94235766, "init", {
           defer: true,
           clickmap:true,
           trackLinks:true,
@@ -37,4 +51,5 @@ export function Metrika() {
         })(document, window);    
       `}
     </Script>
-  ) }
+  );
+}

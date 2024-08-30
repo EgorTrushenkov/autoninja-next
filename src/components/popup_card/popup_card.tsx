@@ -8,9 +8,13 @@ import styles from "@/styles/sass/card.module.sass";
 import { openFormPop } from "@/app/utils";
 import { closeFormPop } from "@/app/utils";
 
-export default function Popup({name, price, slug}) {
-    console.log(name, price);
+interface PopupProps {
+    name: string;
+    price: string;
+    slug: string;
+  }
 
+  export default function Popup({ name, price, slug }: PopupProps) {  
     return (
         <>
             <div className={` form-popup ${styles.formpopup}`} id = "form-popup">

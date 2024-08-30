@@ -11,8 +11,15 @@ const parseImg = (slugIMG: string) => {
     promises.push(
       new Promise((resolve, reject) => {
         const imgSrc = `/_src/img_cards/${slugIMG}/${i}.jpeg`;
-        fetch(imgSrc, { method: 'HEAD', mode: 'same-origin', timeout: 1000 })
+        const controller = new AbortController();
+        const signal = controller.signal;
+        const timeoutId = setTimeout(() => {
+          controller.abort();
+        }, 1000);
+
+        fetch(imgSrc, { method: 'HEAD', mode: 'same-origin', signal })
           .then((response) => {
+            clearTimeout(timeoutId);
             if (response.ok) {
               const img = new Image();
               img.src = imgSrc;
@@ -28,7 +35,11 @@ const parseImg = (slugIMG: string) => {
             }
           })
           .catch((error) => {
-            resolve([]); // Return an empty array if the fetch request fails
+            if (error.name === 'AbortError') {
+              resolve([]); // Return an empty array if the fetch request timed out
+            } else {
+              reject(error);
+            }
           });
       })
     );
@@ -36,8 +47,9 @@ const parseImg = (slugIMG: string) => {
   return Promise.all(promises).then((slides) => slides.flat()); // flat() to remove empty arrays
 };
 
-export default function SwiperPage({ slug }) {
-  const [slides, setSlides] = useState([]);
+
+export default function SwiperPage({ slug }: { slug: string }) {
+  const [slides, setSlides] = useState<any[]>([]);
 
   useEffect(() => {
     parseImg(slug).then((slides) => setSlides(slides));

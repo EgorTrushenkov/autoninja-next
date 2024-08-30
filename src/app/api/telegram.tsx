@@ -144,7 +144,7 @@ export const submitFormCard = (e: React.FormEvent<HTMLFormElement>) => {
     return true;
 };
 
-export const submitFormPopupCard = (nameCar: string, priceCar: number, e: React.FormEvent<HTMLFormElement>) => {
+export const submitFormPopupCard = (nameCar: string, priceCar: string, e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const success = document.getElementById("success-popup-card");
     let nameInput = document.querySelector('input[name="name"]') as HTMLInputElement;

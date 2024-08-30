@@ -2,19 +2,23 @@
 import Image from "next/image";
 import Link from 'next/link';
 import { notFound } from "next/navigation";
+import { MouseEvent } from 'react';
 import "@/styles/sass/main.sass";
 
 
-const tubActive = (e) => {
+const tubActive = (e: MouseEvent<HTMLButtonElement>) => {
   const tubs_all = document.querySelectorAll(`.tabs-trigger__item`);
   for (let i = 0; i < tubs_all.length; i++) {
     tubs_all[i].classList.remove("tabs-trigger__item--active");
   }
-  e.target.classList.add('tabs-trigger__item--active');
+  if (e.target) {
+    const target = e.target as HTMLElement; // type assertion
+    target.classList.add('tabs-trigger__item--active');
+  }
 }
 
 
-const tadAllOff = (e) => {
+const tadAllOff = () => {
   const cars_all = document.querySelectorAll(`.catalog-auto-item`);
   for (let i = 0; i < cars_all.length; i++) {
     cars_all[i].classList.remove("active-auto");
@@ -22,7 +26,7 @@ const tadAllOff = (e) => {
   }
 }
 
-const tadAllOn = (e) => {
+const tadAllOn = (e: MouseEvent<HTMLButtonElement>) => {
   const cars_all = document.querySelectorAll(`.catalog-auto-item`);
   for (let i = 0; i < cars_all.length; i++) {
     cars_all[i].classList.remove("non-active-auto");
@@ -32,7 +36,7 @@ const tadAllOn = (e) => {
 }
 
 
-const tabFunc = (country, e) => {
+const tabFunc = (country: string, e: MouseEvent<HTMLButtonElement>) => {
   tadAllOff();
   const cars_country = document.querySelectorAll(`.${country}`);
   for (let i = 0; i < cars_country.length; i++) {
@@ -47,7 +51,7 @@ const tabFunc = (country, e) => {
 }
 
 
-export default function Catalog(cars) {
+export default function Catalog(cars: { cars: any[] }) {
 
   if (!cars) notFound();
   return (

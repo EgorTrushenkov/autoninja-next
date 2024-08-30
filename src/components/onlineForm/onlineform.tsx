@@ -8,31 +8,57 @@ import { submitForm } from "../../app/api/telegram";
 export default function OnlineForm() {
 
     useEffect(() => {
-        if (document.querySelector('#left').checked) {
-                if (document.getElementById("hatcheback").checked) {
-                    document.querySelector('#mill-div').style.display = 'flex';
-                    document.getElementById('million').checked = true;
-                } else {
-                    document.querySelector('#mill-div').style.display = 'none';
-                    document.getElementById('2million').checked = true;
+        if (document.querySelector<HTMLInputElement>('#left')?.checked) {
+            if ((document.getElementById("hatcheback") as HTMLInputElement)?.checked) {
+                const millDiv = document.querySelector<HTMLElement>('#mill-div');
+                if (millDiv) {
+                    millDiv.style.display = 'flex';
                 }
+                (document.getElementById("million") as HTMLInputElement).checked = true;
+            } else {
+                const millDiv = document.querySelector<HTMLElement>('#mill-div');
+                if (millDiv) {
+                    millDiv.style.display = 'none';
+                }
+                (document.getElementById("2million") as HTMLInputElement).checked = true;
+            }
         }
-        document.querySelector('.form-wrapper').addEventListener('change', function () {
-            changeElemForm();
-        });
+        const formWrapper = document.querySelector('.form-wrapper');
+        if (formWrapper) {
+            formWrapper.addEventListener('change', function () {
+                changeElemForm();
+            });
+        }
         
         const changeElemForm = () => {
-            if (document.querySelector('#left').checked) {
-                if (document.getElementById("hatcheback").checked) {
-                    document.querySelector('#mill-div').style.display = 'flex';
-                    document.getElementById('million').checked;
+            const leftElem = document.querySelector<HTMLInputElement>('#left');
+            if (leftElem && leftElem.checked) {
+                const hatchebackElem = document.getElementById("hatcheback") as HTMLInputElement;
+                if (hatchebackElem && hatchebackElem.checked) {
+                    const millDiv = document.querySelector<HTMLElement>('#mill-div');
+                    if (millDiv) {
+                        millDiv.style.display = 'flex';
+                    }
+                    (document.getElementById("million") as HTMLInputElement).checked = true;
                 } else {
-                    document.querySelector('#mill-div').style.display = 'none';
-                    document.getElementById('2million').checked;
+                    const millDiv = document.querySelector<HTMLElement>('#mill-div');
+                    if (millDiv) {
+                        millDiv.style.display = 'none';
+                    }
+                    const twoMillionElem = document.getElementById('2million') as HTMLInputElement;
+                    if (twoMillionElem) {
+                        twoMillionElem.checked = true;
+                    }
                 }
-            } else if (document.querySelector('#right').checked) {
-                document.querySelector('#mill-div').style.display = 'flex';
-                document.getElementById('million').checked;
+            } else if (document.querySelector('#right') && (document.querySelector('#right') as HTMLInputElement).checked) {
+                const millDiv = document.querySelector<HTMLElement>('#mill-div');
+                if (millDiv) {
+                    millDiv.style.display = 'flex';
+                }
+                const millionElem = document.getElementById('million') as HTMLInputElement;
+                if (millionElem) {
+                    millionElem.checked = true;
+                }
             }
         }
     }, []);

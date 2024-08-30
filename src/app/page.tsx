@@ -10,11 +10,11 @@ import DopService from "@/components/dopService/dopService";
 import Contacts from "@/components/contacts/contacts";
 import Footer from "@/components/footer/footer";
 import Popup from "@/components/popup/popup";
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "AUTONINJA",
   description: "Доставка авто из Кореи, Японии и Китая от 10 дней по всей россии",
-  openGraph: '',
 };
 
 export default function Home() {
