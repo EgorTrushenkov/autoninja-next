@@ -1,69 +1,43 @@
 'use client'
 import Image from "next/image"
-import {RadioGroup, Radio} from "@nextui-org/radio";
+import { RadioGroup, Radio } from "@nextui-org/radio";
 import Link from "next/link"
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 import { submitForm } from "../../app/api/telegram";
 
 export default function OnlineForm() {
 
     useEffect(() => {
-        if (document.querySelector<HTMLInputElement>('#left')?.checked) {
-            if ((document.getElementById("hatcheback") as HTMLInputElement)?.checked) {
-                const millDiv = document.querySelector<HTMLElement>('#mill-div');
-                if (millDiv) {
-                    millDiv.style.display = 'flex';
+        setTimeout(() => {
+        if ((document.querySelector('#left')as HTMLInputElement).checked) {
+                if ((document.getElementById("hatcheback")as HTMLInputElement).checked) {
+                    (document.querySelector('#mill-div')as HTMLInputElement).style.display = 'flex';
+                    (document.getElementById('million')as HTMLInputElement).checked = true;
+                } else {
+                    (document.querySelector('#mill-div')as HTMLInputElement).style.display = 'none';
+                    (document.getElementById('2million')as HTMLInputElement).checked = true;
                 }
-                (document.getElementById("million") as HTMLInputElement).checked = true;
-            } else {
-                const millDiv = document.querySelector<HTMLElement>('#mill-div');
-                if (millDiv) {
-                    millDiv.style.display = 'none';
-                }
-                (document.getElementById("2million") as HTMLInputElement).checked = true;
-            }
         }
-        const formWrapper = document.querySelector('.form-wrapper');
-        if (formWrapper) {
-            formWrapper.addEventListener('change', function () {
-                changeElemForm();
-            });
-        }
+        (document.querySelector('.form-wrapper')as HTMLInputElement).addEventListener('change', function () {
+            changeElemForm();
+        });
         
         const changeElemForm = () => {
-            const leftElem = document.querySelector<HTMLInputElement>('#left');
-            if (leftElem && leftElem.checked) {
-                const hatchebackElem = document.getElementById("hatcheback") as HTMLInputElement;
-                if (hatchebackElem && hatchebackElem.checked) {
-                    const millDiv = document.querySelector<HTMLElement>('#mill-div');
-                    if (millDiv) {
-                        millDiv.style.display = 'flex';
-                    }
-                    (document.getElementById("million") as HTMLInputElement).checked = true;
+            if ((document.querySelector('#left')as HTMLInputElement).checked) {
+                if ((document.getElementById("hatcheback")as HTMLInputElement).checked) {
+                    (document.querySelector('#mill-div')as HTMLInputElement).style.display = 'flex';
+                    (document.getElementById('million')as HTMLInputElement).checked;
                 } else {
-                    const millDiv = document.querySelector<HTMLElement>('#mill-div');
-                    if (millDiv) {
-                        millDiv.style.display = 'none';
-                    }
-                    const twoMillionElem = document.getElementById('2million') as HTMLInputElement;
-                    if (twoMillionElem) {
-                        twoMillionElem.checked = true;
-                    }
+                    (document.querySelector('#mill-div')as HTMLInputElement).style.display = 'none';
+                    (document.getElementById('2million')as HTMLInputElement).checked;
                 }
-            } else if (document.querySelector('#right') && (document.querySelector('#right') as HTMLInputElement).checked) {
-                const millDiv = document.querySelector<HTMLElement>('#mill-div');
-                if (millDiv) {
-                    millDiv.style.display = 'flex';
-                }
-                const millionElem = document.getElementById('million') as HTMLInputElement;
-                if (millionElem) {
-                    millionElem.checked = true;
-                }
+            } else if ((document.querySelector('#right')as HTMLInputElement).checked) {
+                (document.querySelector('#mill-div')as HTMLInputElement).style.display = 'flex';
+                (document.getElementById('million')as HTMLInputElement).checked;
             }
         }
-    }, []);
+    }, 100)}, []);
 
-    
     return (
         <>
             <form className="form-wrapper"  id = "form" onSubmit={submitForm} >

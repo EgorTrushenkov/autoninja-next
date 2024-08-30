@@ -269,7 +269,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/images/logo-auto/Geely.png" alt=""/>
+                                            <img src="/images/logo-auto/geely.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Geely Monjaro</h1>
                                                 <p>2021-2023 год</p>
@@ -521,7 +521,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/images/logo-auto/Geely.png" alt=""/>
+                                    <img src="/images/logo-auto/geely.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Geely Monjaro</h1>
                                         <p>2021-2023 год</p>
