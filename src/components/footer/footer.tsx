@@ -13,7 +13,7 @@ export default function Footer() {
                             <ul className = "pc-list-contacts">
                                 <li className="nav-button"><Link href="/">Главная</Link></li>
                                 <li className="nav-button"><Link href="/catalog">Каталог</Link></li>
-                                <li className="nav-button"><Link href="/auction">Аукцион</Link></li>
+                                <li className="nav-button"><a href="https://auc.auto-ninja.ru/">Аукцион</a></li>
                                 <li className="nav-button"><Link href="/online-form">Онлайн-подбор</Link></li>
                                 <li className="nav-button"><Link href="/#stages">Этапы покупки</Link></li>
                                 <li className="nav-button"><Link href="/#dop-services">Дополнительный сервис</Link></li>
@@ -24,7 +24,7 @@ export default function Footer() {
                         <ul className = "mob-list-contacts">
                             <li className="nav-button"><Link href="/">Главная</Link></li>
                             <li className="nav-button"><Link href="/catalog">Каталог</Link></li>
-                            <li className="nav-button"><Link href="/auction">Аукцион</Link></li>
+                            <li className="nav-button"><a href="https://auc.auto-ninja.ru/">Аукцион</a></li>
                             <li className="nav-button"><Link href="/online-form">Онлайн-подбор</Link></li>
                             <li className="nav-button"><Link href="/#stages">Этапы покупки</Link></li>
                             <li className="nav-button"><Link href="/#dop-services">Дополнительный сервис</Link></li>

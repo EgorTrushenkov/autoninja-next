@@ -56,7 +56,7 @@ export default function Menu() {
                                     <a className = "close-button" onClick={closeMenu}>&#10006;</a>
                                 </li>
                                 <li><Link className = "nav-menu-items-mob" href="/catalog">Каталог</Link></li>
-                                <li><Link className = "nav-menu-items-mob" href="/auction">Аукцион</Link></li>
+                                <li><a className = "nav-menu-items-mob" href="https://auc.auto-ninja.ru/">Аукцион</a></li>
                                 <li><Link className = "nav-menu-items-mob" href="/online-form">Онлайн-подбор</Link></li>
                                 <li><Link className = "nav-menu-items-mob" href="/#stages">Этапы покупки</Link></li>
                                 <li><Link className = "nav-menu-items-mob" href="/#dop-services">Дополнительный сервис</Link></li>
