@@ -20,7 +20,7 @@ export default function Popup() {
                                 <p>Наши менеджеры свяжутся с вами в течение 60 минут</p>
                             </div>
                             <button onClick ={closeFormPop} id = "close-popup-2" className = "close-popup-mob">&#10006;</button>
-                            <img className="skyline-catalog-form" src="/_src/skyline-form-catalog.webp" alt=""/>
+                            <img className="skyline-catalog-form" src="/images/skyline-form-catalog.webp" alt=""/>
                         </div>
                         <form className="form" id = "form-form-popup123" onSubmit={submitFormPopUp}>
                             <input type="text" className="input-form" name="name" id="name-popup" placeholder="Ваше имя" required/>

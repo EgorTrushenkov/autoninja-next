@@ -144,48 +144,48 @@ export default function OnlineForm() {
 
                             <div className="body-auto">
                                 <div>
-                                    <img src="/_src/img-form-auto/sedan.webp" alt=""/>
+                                    <img src="/images/img-form-auto/sedan.webp" alt=""/>
                                     <input type="radio" id="sedan" name="body-auto" value="Седан" defaultChecked={true}/>
                                     <label htmlFor="sedan">Седан</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/hatcheback.webp" alt=""/>
+                                    <img src="/images/img-form-auto/hatcheback.webp" alt=""/>
                                     <input type="radio" id="hatcheback" name="body-auto" value="Хэтчбек"
                                         />
                                     <label htmlFor="hatcheback">Хэтчбек</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/kupe.webp" alt=""/>
+                                    <img src="/images/img-form-auto/kupe.webp" alt=""/>
                                     <input type="radio" id="kupe" name="body-auto" value="Купе"
                                         />
                                     <label htmlFor="kupe">Купе</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/cabriolet.webp" alt=""/>
+                                    <img src="/images/img-form-auto/cabriolet.webp" alt=""/>
                                     <input type="radio" id="cabriolet" name="body-auto" value="Кабриолет"
                                         />
                                     <label htmlFor="cabriolet">Кабриолет</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/miniven.webp" alt=""/>
+                                    <img src="/images/img-form-auto/miniven.webp" alt=""/>
                                     <input type="radio" id="miniven" name="body-auto" value="Минивен"
                                         />
                                     <label htmlFor="miniven">Минивен</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/crossover.webp" alt=""/>
+                                    <img src="/images/img-form-auto/crossover.webp" alt=""/>
                                     <input type="radio" id="crossover" name="body-auto" value="Кроссовер"
                                         />
                                     <label htmlFor="crossover">Кроссовер</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/vnedorojnik.webp" alt=""/>
+                                    <img src="/images/img-form-auto/vnedorojnik.webp" alt=""/>
                                     <input type="radio" id="vnedorojnik" name="body-auto" value="Внедорожник"
                                         />
                                     <label htmlFor="vnedorojnik">Внедорожник</label>
                                 </div>
                                 <div>
-                                    <img src="/_src/img-form-auto/picap.webp" alt=""/>
+                                    <img src="/images/img-form-auto/picap.webp" alt=""/>
                                     <input type="radio" id="picap" name="body-auto" value="Пикап"
                                         />
                                     <label htmlFor="picap">Пикап</label>

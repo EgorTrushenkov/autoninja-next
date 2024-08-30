@@ -17,7 +17,7 @@ export default function Popup() {
                                 <h1>Не нашли подходящий авто?</h1>
                                 <p>Оставьте заявку на индивидуальный подбор автомобиля под ваш запрос и бюджет</p>
                             </div>
-                            <img className="skyline-catalog-form" src="/_src/skyline-form-catalog.webp" alt=""/>
+                            <img className="skyline-catalog-form" src="/images/skyline-form-catalog.webp" alt=""/>
                         </div>
                         <form className="form" id = "form-form-popup123" onSubmit={submitFormCard}>
                             <input type="text" className="input-form" name="name" id="name-popup" placeholder="Ваше имя" required/>

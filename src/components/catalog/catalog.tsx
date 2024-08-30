@@ -73,38 +73,38 @@ export default function Catalog(cars: { cars: any[] }) {
                         <div className={`content-item active-auto catalog-auto-item car-${IdCar} ${Slug} ${Country} ${Brand}`} id={`catalog-${Slug}`}>
 
                             <div className="catalog__title-auto">
-                                <img className = "catalog__logo-auto" src={`/_src/logo-auto/${Brand}.png`} alt=""/>
+                                <img className = "catalog__logo-auto" src={`/images/logo-auto/${Brand}.png`} alt=""/>
                                 <div>
                                     <h3>{Name}</h3>
                                     <p>{Year}</p>
                                 </div>
                             </div>
-                            <img className = "catalog__auto-img" src={`/_src/img-auto/${Slug}.webp`} alt=""/>
+                            <img className = "catalog__auto-img" src={`/images/img-auto/${Slug}.webp`} alt=""/>
                             <div className="catalog__char">
                                 <ul>
                                     <li>
-                                        <img className = "char-logo" src="/_src/icon-auto/motor.webp" alt=""/>
+                                        <img className = "char-logo" src="/images/icon-auto/motor.webp" alt=""/>
                                         <div>
                                             <h4>Двигатель</h4>
                                             <p>{Engine}</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img className = "char-logo" src="/_src/icon-auto/power.webp" alt=""/>
+                                        <img className = "char-logo" src="/images/icon-auto/power.webp" alt=""/>
                                         <div>
                                             <h4>Мощность</h4>
                                             <p>{Power}</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img className = "char-logo" src="/_src/icon-auto/transmition.webp" alt=""/>
+                                        <img className = "char-logo" src="/images/icon-auto/transmition.webp" alt=""/>
                                         <div>
                                             <h4>Коробка</h4>
                                             <p>{Box}</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img className = "char-logo" src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                        <img className = "char-logo" src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                         <div>
                                             <h4>Привод</h4>
                                             <p>{Drive}</p>

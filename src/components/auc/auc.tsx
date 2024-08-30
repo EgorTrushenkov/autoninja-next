@@ -11,7 +11,7 @@ export default function Auc() {
                         <p>Переходи на страницу с аукционом и смотри какие автомобили можно купить прямо сейчас!</p>
                         <a className="button button_2 button-header-mob auc-btn" href="https://auc.auto-ninja.ru/">
                             <span>Перейти на аукцион</span>
-                            <img src="/_src/arrow-auc.svg" alt=""/>
+                            <img src="/images/arrow-auc.svg" alt=""/>
                         </a>
                     </div>
                 </div>

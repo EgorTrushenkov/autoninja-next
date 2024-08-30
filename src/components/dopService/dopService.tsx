@@ -14,15 +14,15 @@ export default function DopService() {
                             <div className="whats-app">
                                 <p>Вы всегда можете связаться с нами по поводу заказа</p>
                                 <div style={{paddingTop: 16, paddingBottom: 16}}>
-                                    <a className = "button-dop" href="https://wa.me/79242488665"><img src="/_src/icon-whatsapp.webp" alt=""/>WhatsApp</a>
+                                    <a className = "button-dop" href="https://wa.me/79242488665"><img src="/images/icon-whatsapp.webp" alt=""/>WhatsApp</a>
                                 </div>
 
                             </div>
                         </div>
                         <img className = "right-img" srcSet="
-                                    /_src/dop-img-988.webp 988w,
-                                    /_src/dop-img.webp"
-                            src="/_src/dop-img.webp"/>
+                                    /images/dop-img-988.webp 988w,
+                                    /images/dop-img.webp"
+                            src="/images/dop-img.webp"/>
                     </div>
                     
                 </div>

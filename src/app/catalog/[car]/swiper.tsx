@@ -10,7 +10,7 @@ const parseImg = (slugIMG: string) => {
   for (let i = 2; i <= 12; i++) {
     promises.push(
       new Promise((resolve, reject) => {
-        const imgSrc = `/_src/img_cards/${slugIMG}/${i}.jpeg`;
+        const imgSrc = `/images/img_cards/${slugIMG}/${i}.jpeg`;
         const controller = new AbortController();
         const signal = controller.signal;
         const timeoutId = setTimeout(() => {
@@ -68,16 +68,16 @@ export default function SwiperPage({ slug }: { slug: string }) {
           loop={true}
         >
           <SwiperSlide key = "1">
-            <img className={styles.img_slider} src={`/_src/img_cards/${slug}/1.jpeg`} alt="" />
+            <img className={styles.img_slider} src={`/images/img_cards/${slug}/1.jpeg`} alt="" />
           </SwiperSlide>
           {slides} {/* ADD OTHER SLIDES */}
         </Swiper>
         <div className={styles.buttons_card}>
           <div className="nav-button card-slider-button-prev card-button">
-            <img src="/_src/Arrow-left.webp" alt="" />
+            <img src="/images/Arrow-left.webp" alt="" />
           </div>
           <div className="nav-button card-slider-button-next card-button">
-            <img src="/_src/Arrow-right.webp" alt="" />
+            <img src="/images/Arrow-right.webp" alt="" />
           </div>
         </div>
       </div>

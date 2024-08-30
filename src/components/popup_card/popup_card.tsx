@@ -29,7 +29,7 @@ interface PopupProps {
                                 <p className ={`${styles.desc_popup_card} ${styles.desc_popup_card_pc}`}>Оставьте заявку и наши менеджеры свяжуться с вами в течение 60 минут</p>
                             </div>
                             <button onClick={closeFormPop} id = "close-popup-2" className = {`close-popup-mob ${styles.popup_close_mob}`}>&#10006;</button>
-                            <img className={styles.popup_img} src={`/_src/img_cards/${slug}/1.jpeg`} alt=""/>
+                            <img className={styles.popup_img} src={`/images/img_cards/${slug}/1.jpeg`} alt=""/>
                             <p className ={`${styles.desc_popup_card} ${styles.desc_popup_card_mob}`}>Оставьте заявку и наши менеджеры свяжуться с вами в течение 60 минут</p>
                         </div>
                         <form className="form" id = "form-form-popup123" onSubmit={(e) => submitFormPopupCard(name, price, e)}>

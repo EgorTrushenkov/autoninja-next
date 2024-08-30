@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="body-footer">
                         <div className = "first-footer">
-                            <img src="/_src/logo-ninja.webp" alt=""/>
+                            <img src="/images/logo-ninja.webp" alt=""/>
                             <ul className = "pc-list-contacts">
                                 <li className="nav-button"><Link href="/">Главная</Link></li>
                                 <li className="nav-button"><Link href="/catalog">Каталог</Link></li>
@@ -19,7 +19,7 @@ export default function Footer() {
                                 <li className="nav-button"><Link href="/#dop-services">Дополнительный сервис</Link></li>
                                 <li className="nav-button"><a href="#contacts">Контакты</a></li>
                             </ul>
-                            <a href="#menu"><img className = "arrow-footer" src="/_src/arrow-footer.webp" alt=""/></a>
+                            <a href="#menu"><img className = "arrow-footer" src="/images/arrow-footer.webp" alt=""/></a>
                         </div>
                         <ul className = "mob-list-contacts">
                             <li className="nav-button"><Link href="/">Главная</Link></li>
@@ -32,7 +32,7 @@ export default function Footer() {
                         </ul>
                         <div className = "whats-contacts">
                             <div className="whats-app">
-                                <a className = "button-dop" href="https://wa.me/79242488665"><img src="/_src/icon-whatsapp.webp" alt=""/>WhatsApp</a>
+                                <a className = "button-dop" href="https://wa.me/79242488665"><img src="/images/icon-whatsapp.webp" alt=""/>WhatsApp</a>
                             </div>
                             <a href="tel:+79242488665" className = "tel-footer">+7 924 248-86-65</a>
                         </div>

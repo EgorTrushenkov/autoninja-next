@@ -23,10 +23,10 @@ export default function Menu() {
                         <ul>
                             <div className = "nav-items-buttons">
                                 <li className="nav-items">
-                                    <Link href="/" className="nav-link navbrand"><img src="/_src/logo-ninja.webp" width="182" alt=""/></Link>
+                                    <Link href="/" className="nav-link navbrand"><img src="/images/logo-ninja.webp" width="182" alt=""/></Link>
                                 </li>
                                 <li className="nav-items nav-items-text menu-dont">
-                                    <img  src="/_src/icon-gorod.webp" width="20" height="20" alt="" />
+                                    <img  src="/images/icon-gorod.webp" width="20" height="20" alt="" />
                                     <div className="text-items ">
                                         <p>Владивосток</p>
                                         <span>Звонить с 2:00-17:00 по МСК, писать в любое время</span>
@@ -35,11 +35,11 @@ export default function Menu() {
                             </div>
                             
                             <div className = "nav-items-buttons">
-                                <li className="nav-items menu-dont"><a href="https://t.me/auto_ninja" className="nav-link"><img width="60" height="60" src="/_src/tg.png" alt=""/></a></li>
-                                <li className="nav-items menu-dont"><a href="https://www.youtube.com/@auto_ninja" className="nav-link"><img width="60" height="60" src="/_src/yb.png" alt=""/></a></li>
-                                <li className="nav-items menu-dont"><a href="https://wa.me/79242488665" className="nav-link"><img width="60" height="60" src="/_src/what-ico.webp" alt=""/></a></li>
+                                <li className="nav-items menu-dont"><a href="https://t.me/auto_ninja" className="nav-link"><img width="60" height="60" src="/images/tg.png" alt=""/></a></li>
+                                <li className="nav-items menu-dont"><a href="https://www.youtube.com/@auto_ninja" className="nav-link"><img width="60" height="60" src="/images/yb.png" alt=""/></a></li>
+                                <li className="nav-items menu-dont"><a href="https://wa.me/79242488665" className="nav-link"><img width="60" height="60" src="/images/what-ico.webp" alt=""/></a></li>
                                 <li className="nav-items menu-dont"><a href="tel:+7 (924) 248-86-65" className="nav-link nav-button">+7 (924) 248-86-65</a></li>
-                                <li className="nav-items" onClick={openMenu}><a className="nav-link main-item header__button" ><img src="/_src/menu-ico.webp" alt=""/></a></li>
+                                <li className="nav-items" onClick={openMenu}><a className="nav-link main-item header__button" ><img src="/images/menu-ico.webp" alt=""/></a></li>
                             </div>
                         </ul>
                     </nav>
@@ -63,7 +63,7 @@ export default function Menu() {
                                 <li><a className = "nav-menu-items-mob" href="#contacts">Контакты</a></li>
                                 <div className = "nav-items-buttons">
                                     <li className="nav-items"><a href="tel:+7 (924) 248-86-65" className="nav-link nav-button">+7 (924) 248-86-65</a></li>
-                                    <li className="nav-items"><a href="https://wa.me/79242488665" className="nav-link"><img width="60" height="60" src="/_src/what-ico.webp" alt=""/></a></li>
+                                    <li className="nav-items"><a href="https://wa.me/79242488665" className="nav-link"><img width="60" height="60" src="/images/what-ico.webp" alt=""/></a></li>
                                 </div>
                             </ul>
                             

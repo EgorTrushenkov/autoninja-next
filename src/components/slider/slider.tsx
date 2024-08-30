@@ -46,8 +46,8 @@ export default function Slider() {
                     <div className="title">
                         <h1>ХИТЫ ПРОДАЖ</h1>
                         <div className="button-slider">
-                            <div className="nav-button slider-button-prev"><img src="/_src/Arrow-left.webp" alt=""/></div>
-                            <div className="nav-button slider-button-next"><img src="/_src/Arrow-right.webp" alt=""/></div>
+                            <div className="nav-button slider-button-prev"><img src="/images/Arrow-left.webp" alt=""/></div>
+                            <div className="nav-button slider-button-next"><img src="/images/Arrow-right.webp" alt=""/></div>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/honda.png" alt=""/>
+                                            <img src="/images/logo-auto/honda.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Honda Stepwgn</h1>
                                                 <p>2019 год</p>
@@ -67,32 +67,32 @@ export default function Slider() {
                                         <h1 className = "sum">1.000.000 - 2.400.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src = "/_src/img-auto/honda_stepwgn.webp"  alt=""/>
+                                        <img className="photo-auto" src = "/images/img-auto/honda_stepwgn.webp"  alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
-                                                    <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                                    <img src="/images/icon-auto/motor.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Двигатель</h4>
                                                         <p>бензин, 1.5л</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/power.webp" alt=""/>
+                                                    <img src="/images/icon-auto/power.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Мощность</h4>
                                                         <p>150 л.с.</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                                    <img src="/images/icon-auto/transmition.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Коробка</h4>
                                                         <p>вариатор</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                                    <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Привод</h4>
                                                         <p>передний</p>
@@ -110,7 +110,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/toyota.png" alt=""/>
+                                            <img src="/images/logo-auto/toyota.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Toyota Land Cruiser Prado</h1>
                                                 <p>2016-2021 год</p>
@@ -119,32 +119,32 @@ export default function Slider() {
                                         <h1 className = "sum">2.500.000 - 3.800.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src="/_src/img-auto/toyota_land_cruiser_prado.webp" alt=""/>
+                                        <img className="photo-auto" src="/images/img-auto/toyota_land_cruiser_prado.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
-                                                    <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                                    <img src="/images/icon-auto/motor.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Двигатель</h4>
                                                         <p>бензин, 2.7л</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/power.webp" alt=""/>
+                                                    <img src="/images/icon-auto/power.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Мощность</h4>
                                                         <p>163 л.с.</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                                    <img src="/images/icon-auto/transmition.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Коробка</h4>
                                                         <p>АКПП</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                                    <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Привод</h4>
                                                         <p>4WD</p>
@@ -164,7 +164,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/hyundai.png" alt=""/>
+                                            <img src="/images/logo-auto/hyundai.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Hyundai Palisade</h1>
                                                 <p>2019-2021 год</p>
@@ -173,32 +173,32 @@ export default function Slider() {
                                         <h1 className = "sum">2.950.000 - 4.200.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto"  src="/_src/img-auto/hyundai_palisade_slider.webp" alt=""/>
+                                        <img className="photo-auto"  src="/images/img-auto/hyundai_palisade_slider.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
-                                                    <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                                    <img src="/images/icon-auto/motor.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Двигатель</h4>
                                                         <p>дизель, 2.2л</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/power.webp" alt=""/>
+                                                    <img src="/images/icon-auto/power.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Мощность</h4>
                                                         <p>202 л.с.</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                                    <img src="/images/icon-auto/transmition.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Коробка</h4>
                                                         <p>АКПП</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                                    <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Привод</h4>
                                                         <p>4WD</p>
@@ -217,7 +217,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/kia.png" alt=""/>
+                                            <img src="/images/logo-auto/kia.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>KIA K5</h1>
                                                 <p>2019-2021 год</p>
@@ -226,32 +226,32 @@ export default function Slider() {
                                         <h1 className = "sum">1.850.000 - 2.500.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src="/_src/img-auto/kia_k5_slider.webp" alt=""/>
+                                        <img className="photo-auto" src="/images/img-auto/kia_k5_slider.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
-                                                    <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                                    <img src="/images/icon-auto/motor.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Двигатель</h4>
                                                         <p>бензин, 1.6л</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/power.webp" alt=""/>
+                                                    <img src="/images/icon-auto/power.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Мощность</h4>
                                                         <p>180 л.с.</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                                    <img src="/images/icon-auto/transmition.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Коробка</h4>
                                                         <p>АКПП</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                                    <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Привод</h4>
                                                         <p>передний</p>
@@ -269,7 +269,7 @@ export default function Slider() {
                                 <div className="container-slide">
                                     <div className="title">
                                         <div className="title-auto">
-                                            <img src="/_src/logo-auto/geely.png" alt=""/>
+                                            <img src="/images/logo-auto/geely.png" alt=""/>
                                             <div className="brend-auto">
                                                 <h1>Geely Monjaro</h1>
                                                 <p>2021-2023 год</p>
@@ -278,32 +278,32 @@ export default function Slider() {
                                         <h1 className = "sum">2.800.000 - 4.000.000₽</h1>
                                     </div>
                                     <div className="body-slide">
-                                        <img className="photo-auto" src="/_src/img-auto/geely.webp" alt=""/>
+                                        <img className="photo-auto" src="/images/img-auto/geely.webp" alt=""/>
                                         <div className="description">
                                             <ul className = "desc-ul">
                                                 <li>
-                                                    <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                                    <img src="/images/icon-auto/motor.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Двигатель</h4>
                                                         <p>бензин, 2.0л</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/power.webp" alt=""/>
+                                                    <img src="/images/icon-auto/power.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Мощность</h4>
                                                         <p>238 л.с.</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                                    <img src="/images/icon-auto/transmition.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Коробка</h4>
                                                         <p>АКПП</p>
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                                    <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                                     <div className="desc-li">
                                                         <h4>Привод</h4>
                                                         <p>4WD</p>
@@ -324,7 +324,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/honda.png" alt=""/>
+                                    <img src="/images/logo-auto/honda.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Honda Stepwgn</h1>
                                         <p>2019 год</p>
@@ -333,32 +333,32 @@ export default function Slider() {
                                 <h1 className = "sum">1.000.000 - 2.400.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/honda_stepwgn.webp" alt=""/>
+                                <img className="photo-auto" src="/images/img-auto/honda_stepwgn.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
-                                            <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                            <img src="/images/icon-auto/motor.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Двигатель</h4>
                                                 <p>бензин, 1.5л</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/power.webp" alt=""/>
+                                            <img src="/images/icon-auto/power.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Мощность</h4>
                                                 <p>150 л.с.</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                            <img src="/images/icon-auto/transmition.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Коробка</h4>
                                                 <p>вариатор</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                            <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Привод</h4>
                                                 <p>передний</p>
@@ -373,7 +373,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/toyota.png" alt=""/>
+                                    <img src="/images/logo-auto/toyota.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Toyota Land Cruiser Prado</h1>
                                         <p>2016-201 год</p>
@@ -382,32 +382,32 @@ export default function Slider() {
                                 <h1 className = "sum">от 3.000.000р</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/toyota_land_cruiser_prado.webp" alt=""/>
+                                <img className="photo-auto" src="/images/img-auto/toyota_land_cruiser_prado.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
-                                            <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                            <img src="/images/icon-auto/motor.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Двигатель</h4>
                                                 <p>бензин, 2.7л</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/power.webp" alt=""/>
+                                            <img src="/images/icon-auto/power.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Мощность</h4>
                                                 <p>163 л.с.</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                            <img src="/images/icon-auto/transmition.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Коробка</h4>
                                                 <p>АКПП</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                            <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Привод</h4>
                                                 <p>4WD</p>
@@ -423,7 +423,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/hyundai.png" alt=""/>
+                                    <img src="/images/logo-auto/hyundai.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Hyundai Palisade</h1>
                                         <p>2019-2021 год</p>
@@ -432,32 +432,32 @@ export default function Slider() {
                                 <h1 className = "sum">2.950.000 - 4.200.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/hyundai_palisade_slider.webp" alt=""/>
+                                <img className="photo-auto" src="/images/img-auto/hyundai_palisade_slider.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
-                                            <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                            <img src="/images/icon-auto/motor.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Двигатель</h4>
                                                 <p>дизель, 2.2л</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/power.webp" alt=""/>
+                                            <img src="/images/icon-auto/power.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Мощность</h4>
                                                 <p>202 л.с.</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                            <img src="/images/icon-auto/transmition.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Коробка</h4>
                                                 <p>АКПП</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                            <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Привод</h4>
                                                 <p>4WD</p>
@@ -472,7 +472,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/kia.png" alt=""/>
+                                    <img src="/images/logo-auto/kia.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>KIA K5</h1>
                                         <p>2019-2021 год</p>
@@ -481,32 +481,32 @@ export default function Slider() {
                                 <h1 className = "sum">1.850.000 - 2.500.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/kia_k5_slider.webp" alt=""/>
+                                <img className="photo-auto" src="/images/img-auto/kia_k5_slider.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
-                                            <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                            <img src="/images/icon-auto/motor.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Двигатель</h4>
                                                 <p>бензин, 1.6л</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/power.webp" alt=""/>
+                                            <img src="/images/icon-auto/power.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Мощность</h4>
                                                 <p>180 л.с.</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                            <img src="/images/icon-auto/transmition.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Коробка</h4>
                                                 <p>АКПП</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                            <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Привод</h4>
                                                 <p>передний</p>
@@ -521,7 +521,7 @@ export default function Slider() {
                         <div className="container-slide">
                             <div className="title">
                                 <div className="title-auto">
-                                    <img src="/_src/logo-auto/geely.png" alt=""/>
+                                    <img src="/images/logo-auto/geely.png" alt=""/>
                                     <div className="brend-auto">
                                         <h1>Geely Monjaro</h1>
                                         <p>2021-2023 год</p>
@@ -530,32 +530,32 @@ export default function Slider() {
                                 <h1 className = "sum">2.800.000 - 4.000.000₽</h1>
                             </div>
                             <div className="body-slide">
-                                <img className="photo-auto" src="/_src/img-auto/geely.webp" alt=""/>
+                                <img className="photo-auto" src="/images/img-auto/geely.webp" alt=""/>
                                 <div className="description">
                                     <ul className = "desc-ul">
                                         <li>
-                                            <img src="/_src/icon-auto/motor.webp" alt=""/>
+                                            <img src="/images/icon-auto/motor.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Двигатель</h4>
                                                 <p>бензин, 2.0л</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/power.webp" alt=""/>
+                                            <img src="/images/icon-auto/power.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Мощность</h4>
                                                 <p>238 л.с.</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/transmition.webp" alt=""/>
+                                            <img src="/images/icon-auto/transmition.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Коробка</h4>
                                                 <p>АКПП</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <img src="/_src/icon-auto/drivu_unit.webp" alt=""/>
+                                            <img src="/images/icon-auto/drivu_unit.webp" alt=""/>
                                             <div className="desc-li">
                                                 <h4>Привод</h4>
                                                 <p>4WD</p>
@@ -573,7 +573,7 @@ export default function Slider() {
                     <Link href = "/catalog" className = "button button_2 button-header-mob">
                         <div className = "button-inside button-inside-2">
                             <p>ПЕРЕЙТИ В КАТАЛОГ</p>
-                            <img draggable="false" src="/_src/arrow-button.webp" alt=""/>
+                            <img draggable="false" src="/images/arrow-button.webp" alt=""/>
                         </div>
                     </Link>
                 </div>

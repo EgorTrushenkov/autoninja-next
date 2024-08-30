@@ -13,7 +13,7 @@ import Popup from "@/components/popup/popup";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "AUTONINJA",
+  title: "Автониндзя - авто из Японии, Кореи и Китая",
   description: "Доставка авто из Кореи, Японии и Китая от 10 дней по всей россии",
 };
 
@@ -27,7 +27,7 @@ export default function Home() {
         <meta property="og:site_name" content="Авто из Японии, Кореи и Китая с доставкой в РФ от 10 дней"/>
         <meta property="og:url" content="автониндзя.рф"/>
         <meta property="og:description" content="Доставка авто из Кореи, Японии и Китая от 10 дней по всей россии"/>
-        <meta property="og:image" content="img/_src/zahar.webp"/>
+        <meta property="og:image" content="imgpublic/images/zahar.webp"/>
       </Head>
       <Menu />
       <Header />

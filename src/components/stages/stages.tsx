@@ -15,7 +15,7 @@ export default function Stages() {
                         <ul className = "stages-list">
                             <h1>Этапы покупки авто</h1>
                             <li className = " items-stage img-stage">
-                                <img src="/_src/stages.webp" alt=""/>
+                                <img src="/images/stages.webp" alt=""/>
                             </li>
                             <li className = "items-stage">
                                 <div className="title-stage">
@@ -55,7 +55,7 @@ export default function Stages() {
                             <button onClick = {openFormPop} className = "button button_2 button-header-mob">
                                 <div className = "button-inside button-inside-2">
                                     <p>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
-                                    <img draggable="false" src="/_src/arrow-button.webp" alt=""/>	
+                                    <img draggable="false" src="/images/arrow-button.webp" alt=""/>	
                                 </div>
                             </button>
                         </ul>
