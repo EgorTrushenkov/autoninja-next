@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import Head from "next/head";
 import Menu from "@/components/menu/menu";
@@ -10,7 +11,7 @@ import { notFound } from "next/navigation";
 import styles from "@/styles/sass/card.module.sass";
 import Link from 'next/link';
 import Script from 'next/script';
-
+import ButtonPopup from '@/app/catalog/[car]/buttonpopup';
 
 const fetchData = async() => {
   const response = await fetch('https://script.google.com/macros/s/AKfycbyIxKvBUAIufdDs9VZegCyjllZXYDXR-0mXdmNzYObPeZyDqpf59sOiXiGgz2WFJLJf/exec')
@@ -65,6 +66,8 @@ export default async function CarPage({
         <meta property="og:image" content={Main_photo}/>
       </Head>
       <Menu />
+      <PopupCard name = {Name} price = {Price} slug ={Slug}/>
+
       <div className={styles.card_cars}>
         <div className = "container">
             <Link className = {styles.back_catalog} href="/catalog/">
@@ -156,8 +159,8 @@ export default async function CarPage({
                     <p className = {styles.price_title}>Стоимость</p>
                     <p className ={styles.price}>{Price}</p>
                     <p className = {styles.price_desc}>Точная стоимость зависит от выбранной комплектации. Для уточнения стоимости свяжитесь с нами</p>
-                    <button className="button btn_card" >Заказать авто</button>
-                  </div>
+                    <ButtonPopup/>
+                </div>
                 </div>
               </div>
             </div>
@@ -166,7 +169,6 @@ export default async function CarPage({
       <FormNotFound />
       <Contacts />
       <Footer />
-      <PopupCard name = {Name} price = {Price} slug ={Slug}/>
     </> 
   );
 }

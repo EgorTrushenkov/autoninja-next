@@ -5,8 +5,16 @@ import { notFound } from "next/navigation";
 import "@/styles/sass/main.sass";
 
 
+const tubActive = (e) => {
+  const tubs_all = document.querySelectorAll(`.tabs-trigger__item`);
+  for (let i = 0; i < tubs_all.length; i++) {
+    tubs_all[i].classList.remove("tabs-trigger__item--active");
+  }
+  e.target.classList.add('tabs-trigger__item--active');
+}
 
-const tadAllOff = () => {
+
+const tadAllOff = (e) => {
   const cars_all = document.querySelectorAll(`.catalog-auto-item`);
   for (let i = 0; i < cars_all.length; i++) {
     cars_all[i].classList.remove("active-auto");
@@ -14,16 +22,17 @@ const tadAllOff = () => {
   }
 }
 
-const tadAllOn = () => {
+const tadAllOn = (e) => {
   const cars_all = document.querySelectorAll(`.catalog-auto-item`);
   for (let i = 0; i < cars_all.length; i++) {
     cars_all[i].classList.remove("non-active-auto");
     cars_all[i].classList.add("active-auto");
   }
+  tubActive(e);
 }
 
 
-const tabFunc = (country) => {
+const tabFunc = (country, e) => {
   tadAllOff();
   const cars_country = document.querySelectorAll(`.${country}`);
   for (let i = 0; i < cars_country.length; i++) {
@@ -34,6 +43,7 @@ const tabFunc = (country) => {
       cars_country[i].classList.add("active-auto");
     }
   }
+  tubActive(e);
 }
 
 
@@ -46,14 +56,14 @@ export default function Catalog(cars) {
         <h1>Каталог автомобилей</h1>
         <div className="tabs">
           <div className="tabs-trigger">
-            <button className="tabs-trigger__item" onClick={() => tadAllOn()}>Все авто</button>
-            <button className="tabs-trigger__item" onClick={() => tabFunc('japan')}>Авто из Японии</button>
-            <button className="tabs-trigger__item" onClick={() => tabFunc('korea')}>Авто из Кореи</button>
-            <button className="tabs-trigger__item" onClick={() => tabFunc('china')}>Авто из Китая</button>
-            <button className="tabs-trigger__item" onClick={() => tabFunc('allwant')}>Авто, которые хотят все</button>
+            <button className="tabs-trigger__item tabs-trigger__item--active" onClick={(e) => tadAllOn(e)}>Все авто</button>
+            <button className="tabs-trigger__item" onClick={(e) => tabFunc('japan', e)}>Авто из Японии</button>
+            <button className="tabs-trigger__item" onClick={(e) => tabFunc('korea', e)}>Авто из Кореи</button>
+            <button className="tabs-trigger__item" onClick={(e) => tabFunc('china', e)}>Авто из Китая</button>
+            <button className="tabs-trigger__item" onClick={(e) => tabFunc('allwant', e)}>Авто, которые хотят все</button>
           </div>
           <div className="tabs-content">
-            <div id="tab" className="tabs-content__item">
+            <div className="tabs-content__item">
                   {cars['cars'] && cars['cars'].map(({ IdCar, Slug, Name, Engine, Power, Box, Drive, Price, Year, Main_photo, Country, Brand }) => (
                     <>
                         <div className={`content-item active-auto catalog-auto-item car-${IdCar} ${Slug} ${Country} ${Brand}`} id={`catalog-${Slug}`}>

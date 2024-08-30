@@ -136,7 +136,7 @@ export const submitFormCard = (e: React.FormEvent<HTMLFormElement>) => {
 
 export const submitFormPopupCard = (nameCar, priceCar, e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const success = document.getElementById("success-popup");
+    const success = document.getElementById("success-popup-card");
     
 
     let message = `<b>Заявка на авто!</b>\n`;
@@ -163,7 +163,7 @@ export const submitFormPopupCard = (nameCar, priceCar, e: React.FormEvent<HTMLFo
     .then((res) => {
         (e.target as HTMLInputElement).name.value = "";
         (e.target as HTMLInputElement).phone.value = "";
-        success.innerHTML = "Сообщение отправлено!";
+        success.innerHTML = "Ваша заявка отправлена!";
         success.style.display = "block";
     })
     .catch((err) =>{

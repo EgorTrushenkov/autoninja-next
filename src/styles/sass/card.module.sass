@@ -82,7 +82,8 @@
     margin-bottom: 32px
 .desc_popup_card
     max-width: 490px
-
+.desc_popup_card_mob
+    display: none
 @media screen and (max-width: 1200px)
         .body_wrapper
             display: block
@@ -94,7 +95,48 @@
             margin-right: 0
             margin-bottom: 32px
 
+@media screen and (max-width: 1000px)
+    .desc_popup_card_pc
+        display: none
+    .desc_popup_card_mob
+        display: block
+        margin-top: 20px !important
+        margin-bottom: 10px !important
+    .popup_name
+        margin-top: 20px !important
+        margin-bottom: 8px !important
+    .price_popup_card
+        margin-bottom: 20px !important
+    .popup_close_pc
+        display: none
+    .popup_close_mob
+        display: block
+        background: none
+        border: none
+        color: #fff
+        display: block
+        font-size: 35px
+        position: absolute
+        top: 10px
+        right: 10px
+    .popup_img
+        max-width: 100%
+    .title_form_catalog_card
+        width: 100% !important
+        margin-bottom: 32px
+    .title_card_popup
+        width: 100% 
+        display: block !important
+    .popup_name, .price_popup_card, .desc_popup_card
+        max-width: 100%
+    .formPopupWrapper
+        margin-top: 0% !important
+    .formpopup
+        position: fixed
+        overflow: scroll
+
 @media screen and (max-width: 900px)
+    
     .card_cars
         margin-top: 90px
     .back_catalog
