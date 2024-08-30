@@ -31,7 +31,7 @@ export default async function CarPage({
   const cars = await fetchData();
   
   // Поиск автомобиля по id и проверка
-  const Id = cars.find(car => car.Slug === params.car)?.IdCar || notFound();
+  const Id = cars.find((car: { Slug: string, IdCar: number }) => car.Slug === params.car)?.IdCar || notFound();
 
   // Поиск ключа в объекте автомобилей
   const arrayId = Id - 1;

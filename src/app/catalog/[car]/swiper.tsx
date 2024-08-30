@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from "@/styles/sass/card.module.sass";
 import { useEffect, useState } from 'react';
 
-const parseImg = (slugIMG) => {
+const parseImg = (slugIMG: string) => {
   const promises = [];
   for (let i = 2; i <= 12; i++) {
     promises.push(

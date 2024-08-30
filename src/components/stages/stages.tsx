@@ -1,6 +1,8 @@
 'use client'
-import Image from "next/image"
-import Popup from "../popup/popup"
+import Image from "next/image";
+import Popup from "../popup/popup";
+import { openFormPop } from "@/app/utils";
+import { closeFormPop } from "@/app/utils";
 export default function Stages() {
 
     return (

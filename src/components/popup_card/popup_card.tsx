@@ -5,6 +5,8 @@ import Script from "next/script";
 import { useEffect } from "react";
 import { submitFormPopupCard } from "../../app/api/telegram";
 import styles from "@/styles/sass/card.module.sass";
+import { openFormPop } from "@/app/utils";
+import { closeFormPop } from "@/app/utils";
 
 export default function Popup({name, price, slug}) {
     console.log(name, price);

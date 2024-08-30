@@ -99,7 +99,7 @@ export default function Slider() {
                                                     </div>
                                                 </li>
                                                 <h1 className = "sum2">1.000.000 - 2.400.000₽</h1>
-                                                <a  className = "nav-button">Подробнее</a>
+                                                <Link href="/catalog/honda_stepwgn" className = "nav-button">Подробнее</Link>
                                             </ul>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@ export default function Slider() {
                                                 <li>
                                                 </li>
                                                 <h1 className = "sum2">2.500.000 - 3.800.000₽</h1>
-                                                <a  className = "nav-button">Подробнее</a>
+                                                <Link href="/catalog/toyota_land_cruiser_prado"  className = "nav-button">Подробнее</Link>
                                             </ul>
                                         </div>
                                     </div>
@@ -206,7 +206,7 @@ export default function Slider() {
                                                 </li>
 
                                                 <h1 className = "sum2">2.950.000 - 4.200.000₽</h1>
-                                                <a  className = "nav-button">Подробнее</a>
+                                                <Link href="/catalog/hyundai_palisade"  className = "nav-button">Подробнее</Link>
                                             </ul>
                                         </div>
                                     </div>
@@ -258,7 +258,7 @@ export default function Slider() {
                                                     </div>
                                                 </li>
                                                 <h1 className = "sum2">1.850.000 - 2.500.000₽</h1>
-                                                <a  className = "nav-button">Подробнее</a>
+                                                <Link href="/catalog/kia_k5"  className = "nav-button">Подробнее</Link>
                                             </ul>
                                         </div>
                                     </div>
@@ -311,7 +311,7 @@ export default function Slider() {
                                                 </li>
 
                                                 <h1 className = "sum2">2.800.000 - 4.000.000₽</h1>
-                                                <a  className = "nav-button">Подробнее</a>
+                                                <Link href="/catalog/geely_monjaro"  className = "nav-button">Подробнее</Link>
                                             </ul>
                                         </div>
                                     </div>
@@ -365,7 +365,7 @@ export default function Slider() {
                                             </div>
                                         </li>
                                         <h1 className = "sum2">1.000.000 - 2.400.000₽</h1>
-                                        <a  className = "nav-button">Подробнее</a>
+                                        <Link href="/catalog/honda_stepwgn"  className = "nav-button">Подробнее</Link>
                                     </ul>
                                 </div>
                             </div>
@@ -415,7 +415,7 @@ export default function Slider() {
                                         </li>
 
                                         <h1 className = "sum2">2.500.000 - 3.800.000₽</h1>
-                                        <a  className = "nav-button">Подробнее</a>
+                                        <Link href="/catalog/toyota_land_cruiser_prado"  className = "nav-button">Подробнее</Link>
                                     </ul>
                                 </div>
                             </div>
@@ -464,7 +464,7 @@ export default function Slider() {
                                             </div>
                                         </li>
                                         <h1 className = "sum2">2.950.000 - 4.200.000₽</h1>
-                                        <a  className = "nav-button">Подробнее</a>
+                                        <Link href="/catalog/hyundai_palisade"  className = "nav-button">Подробнее</Link>
                                     </ul>
                                 </div>
                             </div>
@@ -513,7 +513,7 @@ export default function Slider() {
                                             </div>
                                         </li>
                                         <h1 className = "sum2">1.850.000 - 2.500.000₽</h1>
-                                        <a  className = "nav-button">Подробнее</a>
+                                        <Link href="/catalog/kia_k5"  className = "nav-button">Подробнее</Link>
                                     </ul>
                                 </div>
                             </div>
@@ -563,7 +563,7 @@ export default function Slider() {
                                         </li>
 
                                         <h1 className = "sum2">2.800.000 - 4.000.000₽</h1>
-                                        <a className = "nav-button">Подробнее</a>
+                                        <Link href="/catalog/geely_monjaro" className = "nav-button">Подробнее</Link>
                                     </ul>
                                 </div>
                             </div>

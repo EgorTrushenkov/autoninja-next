@@ -4,7 +4,8 @@ import Link from "next/link"
 import Script from "next/script";
 import { useEffect } from "react";
 import { submitFormPopUp } from "../../app/api/telegram";
-
+import { openFormPop } from "@/app/utils";
+import { closeFormPop } from "@/app/utils";
 export default function Popup() {
     
     return (
