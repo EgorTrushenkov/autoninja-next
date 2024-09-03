@@ -5,6 +5,7 @@ import Script from "next/script";
 import Image  from "next/image";
 import { Suspense } from 'react';
 import { Metrika } from "@/components/yandexMetrika/yandexMetrika";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Авто из Японии, Кореи и Китая с доставкой в РФ от 10 дней",

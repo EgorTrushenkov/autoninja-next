@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
     "@nextui-org/radio": "^2.1.4",
+    "@vercel/speed-insights": "^1.0.12",
     "axios": "^1.7.5",
     "googleapis": "^142.0.0",
     "jszip": "^3.10.1",
