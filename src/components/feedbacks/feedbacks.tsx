@@ -34,7 +34,7 @@ export default function FeedBacks() {
                         </div>
                     </div>
                 </div>
-                    <div>
+                    <div className = {styles.swiper_wrapper_feed}>
                         <Swiper
                             modules={[Navigation, Pagination, Scrollbar, A11y]}
                             navigation={{
@@ -67,7 +67,6 @@ export default function FeedBacks() {
                             {slide_feedback()} 
 
                         </Swiper>
-                        <div className="container">
                             <div className={styles.buttons_card_mob}>
                                 <div className= {`nav-button card-slider-button-prev card-button ${styles.button_feedback}`}>
                                     <img src="/images/Arrow-left.webp" alt="" />
@@ -76,7 +75,6 @@ export default function FeedBacks() {
                                     <img src="/images/Arrow-right.webp" alt="" />
                                 </div>
                             </div>     
-                        </div>
                     </div>
 
             </div>
