@@ -11,6 +11,7 @@ import Contacts from "@/components/contacts/contacts";
 import Footer from "@/components/footer/footer";
 import Popup from "@/components/popup/popup";
 import { Metadata } from 'next';
+import FeedBacks from "@/components/feedbacks/feedbacks";
 
 export const metadata: Metadata = {
   title: "Автониндзя - авто из Японии, Кореи и Китая",
@@ -37,6 +38,7 @@ export default function Home() {
       <Advantages />
       <Stages />
       <DopService />
+      < FeedBacks />
       <Contacts />
       <Footer />
       <Popup />
