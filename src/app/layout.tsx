@@ -27,11 +27,10 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
       </head>
       <body>
-        <main>{children}</main>
+        <main>{children}<SpeedInsights/></main>
         <Suspense>
           <Metrika />
         </Suspense>
-        <SpeedInsights/>
         <Script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossOrigin="anonymous"></Script>
         <Script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></Script>
         {/* <Script>
