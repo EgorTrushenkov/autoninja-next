@@ -67,14 +67,16 @@ export default function FeedBacks() {
                             {slide_feedback()} 
 
                         </Swiper>
-                        <div className={styles.buttons_card_mob}>
-                        <div className= {`nav-button card-slider-button-prev card-button ${styles.button_feedback}`}>
-                                <img src="/images/Arrow-left.webp" alt="" />
-                            </div>
-                            <div className={`nav-button card-slider-button-next card-button ${styles.button_feedback}`}>
-                                <img src="/images/Arrow-right.webp" alt="" />
-                            </div>
-                        </div>      
+                        <div className="container">
+                            <div className={styles.buttons_card_mob}>
+                                <div className= {`nav-button card-slider-button-prev card-button ${styles.button_feedback}`}>
+                                    <img src="/images/Arrow-left.webp" alt="" />
+                                </div>
+                                <div className={`nav-button card-slider-button-next card-button ${styles.button_feedback}`}>
+                                    <img src="/images/Arrow-right.webp" alt="" />
+                                </div>
+                            </div>     
+                        </div>
                     </div>
 
             </div>
